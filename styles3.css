@@ -1,0 +1,155 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up basic styles */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #161b22;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #c9d1d9;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+    font-size: 1.02rem;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #c9d1d9;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #58a6ff;
+}
+
+/* Project section styles */
+.portfolio {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #58a6ff;
+}
+
+.portfolio .subheading {
+    color: #8b949e;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    background: #161b22;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: calc(33% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+.project p {
+    color: #8b949e;
+    font-size: 1rem;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #161b22;
+    color: #c9d1d9;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-links a.linkedin:hover {
+    color: #0e76a8;
+}
+
+.social-links a.github:hover {
+    color: #333333;
+}
+
+.social-links a.email:hover {
+    color: red;
+}

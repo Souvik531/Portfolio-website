@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souvik - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">Souvik's Portfolio</div>
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hi, My name is <span class="highlight">Souvik Paul</span></h1>
+                <p>and I am a passionate <span id="element"></span></p>
+            </div>
+            <div class="hero-image">
+                <img src="img/dev.png" alt="Developer Image">
+            </div>
+        </section>
+        
+        <section class="portfolio">
+            <h2>What I have done so far</h2>
+            <p class="subheading">Past Learnings</p>
+            <div class="projects">
+                <div class="project">
+                    <img src="img/html.jpg" alt="HTML">
+                    <h3>Front End Developer</h3>
+                    <p>I have studied Front End Development, focusing on creating intuitive and visually appealing web interfaces. My skills include HTML, CSS, and JavaScript, along with experience in modern frameworks like React.</p>
+                </div>
+                <div class="project">
+                    <img src="img/node-js.png" alt="Node.js">
+                    <h3>Node.js Developer</h3>
+                    <p>I have studied Node.js, focusing on building scalable server-side applications. My skills include asynchronous programming, creating RESTful APIs, and working with databases like MongoDB and SQL.</p>
+                </div>
+                <div class="project">
+                    <img src="img/express-js.png" alt="Express.js">
+                    <h3>Express.js Developer</h3>
+                    <p>I have studied Express.js, specializing in building efficient and robust web applications. My skills include creating RESTful APIs, middleware integration, and routing.</p>
+                </div>
+                <div class="project">
+                    <img src="img/react.png" alt="React">
+                    <h3>React Developer</h3>
+                    <p>I have studied React, focusing on creating dynamic user interfaces. My skills include using JSX, managing state with hooks, and implementing component-based architecture.</p>
+                </div>
+                <div class="project">
+                    <img src="img/mongo-db.png" alt="MongoDB">
+                    <h3>MongoDB Developer</h3>
+                    <p>I have studied MongoDB, focusing on its use as a NoSQL database. My skills include designing schemas, performing CRUD operations, and indexing for performance.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Souvik Paul. All Rights Reserved.</p>
+            <p>Full Stack Developer | HTML | CSS | JavaScript | React | Node.js | MongoDB</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/yourprofile" target="_blank" class="github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="mailto:souvikpaul531@gmail.com" class="email">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Developer', 'Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+            backSpeed: 25,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>

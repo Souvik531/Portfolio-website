@@ -1,0 +1,135 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Set up basic styles */
+body {
+    line-height: 1.6;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header and Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+    height: 80px;
+    background-color: #161b22;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #c9d1d9;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
+
+.navbar-menu a {
+    color: #c9d1d9;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #58a6ff;
+    font-size: 1.02rem;
+}
+
+
+.about {
+    padding: 60px 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #58a6ff;
+}
+
+.about-content h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #58a6ff;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+
+.footer {
+    background-color: #161b22;
+    color: #c9d1d9;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+    height: 8rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-links a.linkedin:hover {
+    color: #0e76a8;
+}
+
+.social-links a.github:hover {
+    color: #333333;
+}
+
+.social-links a.email:hover {
+    color: red;
+}
